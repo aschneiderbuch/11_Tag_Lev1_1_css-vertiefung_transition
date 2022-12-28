@@ -3,3 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 1rem;
+}
+
+.div--transiation {
+    transition-property: width;
+
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+.div--transiation:hover{
+    width: 500px;
+}
